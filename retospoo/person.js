@@ -1,4 +1,9 @@
+
+let persona = require('./person.js');
+module['exports'] =persona;
+
 const year = new Date().getFullYear()
+
 
 class Persona {
 
@@ -12,6 +17,7 @@ class Persona {
         this.hobbies = [];
     }   
     
+
 
     calculoImc() {
          
