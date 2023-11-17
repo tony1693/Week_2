@@ -4,3 +4,6 @@ person2.hobbies.push("padel");
 person2.hobbies.push("netflix");
 console.log(person2);
 console.log(person2.calculoImc());
+
+
+

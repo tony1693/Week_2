@@ -31,7 +31,7 @@ class Persona {
             console.log(resultado);
         }
     }
-
+s
     printHobbies(){
         console.log(this.hobbies);
     }  
@@ -45,3 +45,7 @@ my.printHobbies();
 console.log(my);
 
 module.exports= Persona;
+
+
+
+

@@ -6,3 +6,6 @@ const agenda =new Contacts();
 agenda.arrayObjets.push(tony);
 agenda.printPerson();
 console.log(agenda);
+
+
+
