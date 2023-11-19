@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Library = void 0;
 var book_1 = require("./book");
 var Library = /** @class */ (function () {
     function Library(books, address, manager) {
@@ -31,4 +32,5 @@ var Library = /** @class */ (function () {
     };
     return Library;
 }());
+exports.Library = Library;
 var author = new book_1.Book("el quijote", 500, "Wep", "Miguel de Cervantes", "anaya");

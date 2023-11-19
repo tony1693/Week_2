@@ -1,6 +1,6 @@
 import { Book } from "./book";
 
-class Library{
+export class Library{
         private books:Book[];
         private address:string;
         private manager:string;
